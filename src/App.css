@@ -1,1 +1,35 @@
+.TopContainer {
+	width: 100vw;
+}
+.MainContainer {
+	display: inline-block;
+	position: relative;
+}
+.MainContainer h3 {
+	text-align: center;
+}
+.Cal__Container__root {
+	margin-left: auto;
+	margin-right: auto;
+}
 
+@media (max-width: 650px) {
+	.MainContainer {
+		width: 100%;
+	}
+}
+@media (min-width: 651px) {
+	.MainContainer {
+		width: 50%;
+	}
+	.Graph {
+		width: 100%;
+	}
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {
+	.MainContainer {
+		width: 32%;
+	}
+}
